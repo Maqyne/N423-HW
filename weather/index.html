@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Weather | Project</title>
+  </head>
+  <body>
+    <nav>
+      <a href="#">home</a>
+      <a href="#">forecast</a>
+      <a href="#">alerts</a>
+      <a href="#">another</a>
+
+      <div>
+        <button id="login">LOG IN</button>
+        <button id="signup">SIGN UP</button>
+      </div>
+    </nav>
+
+    <div class="forecast">
+      <div class="forecast_wrapper">
+        <h1>Get Forecast</h1>
+        <p>Enter your zipcode for accurate local weather!</p>
+        <div class="inputBox">
+          <input id="zipcode" type="text" />
+          <input id="daycount" type="number" name="daycount" min="1" max="5" />
+          <button id="getWeather">Get Weather!</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="content"></div>
+
+    <div class="astronomy"></div>
+
+    <script src="lib/jquery-3.5.1.min.js"></script>
+    <script src="app/app.js"></script>
+  </body>
+</html>

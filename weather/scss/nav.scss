@@ -1,0 +1,30 @@
+nav {
+  height: 10%;
+  width: 100%;
+  background-color: slateblue;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  a {
+    text-decoration: none;
+    color: skyblue;
+    text-transform: capitalize;
+  }
+  a:hover {
+    background-color: darkblue;
+    padding: 5px 10px;
+    transition-duration: 1s;
+  }
+  button {
+    background-color: snow;
+    border: none;
+    color: slategray;
+    padding: 5px 10px;
+  }
+
+  button:hover {
+    background-color: springgreen;
+    transition-duration: 1s;
+  }
+}
