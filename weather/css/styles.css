@@ -20,6 +20,7 @@ p {
 }
 
 nav {
+  position: fixed;
   height: 10%;
   width: 100%;
   background-color: slateblue;
