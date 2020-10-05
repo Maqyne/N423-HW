@@ -1,0 +1,15 @@
+.inputWrapper {
+  margin-top: 10vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  input {
+    width: 50vw;
+    margin-bottom: 15px;
+  }
+  button {
+    padding: 5px;
+  }
+}
