@@ -20,6 +20,7 @@ p {
 }
 
 .drop-select {
+  width: 100vw;
   height: 75px;
   background-color: cadetblue;
   display: flex;
