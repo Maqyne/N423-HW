@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+.drop-select {
+  height: 75px;
+  background-color: cadetblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.drop-select select {
+  width: 100px;
+  text-transform: capitalize;
+}
+.drop-select select option {
+  text-transform: capitalize;
+}
+
+.title {
+  display: flex;
+  justify-content: left;
+  margin-top: 15px;
+  margin-left: 100px;
+  text-transform: capitalize;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+.content .grid-item {
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+.content .grid-item img {
+  height: 250px;
+  width: 250px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
